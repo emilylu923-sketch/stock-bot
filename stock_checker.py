@@ -5,8 +5,8 @@ import random
 
 URL = "https://www.ktown4u.com/iteminfo?grp_no=3190592&goods_no=158911"
 
-BOT_TOKEN = "你的BOT_TOKEN"
-CHAT_ID = "你的CHAT_ID"
+BOT_TOKEN = "8639778554:AAFe7XuCps2sUPG3hkZzsAPgZmJBYrsZAMk"
+CHAT_ID = "8639778554"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0"
