@@ -16,7 +16,12 @@ def check_stock():
     try:
         resp = requests.get(URL, headers=HEADERS, timeout=15)
         soup = BeautifulSoup(resp.text, "html.parser")
-        text = soup.get_text(" ", strip=True)
+        # 找按鈕
+buttons = soup.find_all("button")
+for btn in buttons:
+    if "Cart" in btn.get_text():
+        return True
+        return False
 
         if "Out Of Stock" in text:
             return False
