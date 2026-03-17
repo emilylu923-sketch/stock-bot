@@ -41,4 +41,4 @@ while True:
 
     last_status = status
 
-    time.sleep(random.randint(120, 300))
+time.sleep(random.randint(60, 120))
